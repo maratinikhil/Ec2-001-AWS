@@ -25,6 +25,6 @@ output "EC2-Instance" {
 }
 
 
-output "Public Ip" {
+output "Public_Ip" {
     value = aws_instance.My_EC2_instance.public_ip
 }
