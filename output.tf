@@ -19,3 +19,7 @@ output "Internet_Gateway" {
 output "security_groups" {
     value = aws_security_group.Mysecurity.id
 }
+
+output "EC2-Instance" {
+    value = aws_instance.My_EC2_instance.id
+}
