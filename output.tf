@@ -23,3 +23,8 @@ output "security_groups" {
 output "EC2-Instance" {
     value = aws_instance.My_EC2_instance.id
 }
+
+
+output "Public Ip" {
+    value = aws_instance.My_EC2_instance.public_ip
+}
